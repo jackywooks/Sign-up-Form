@@ -1,6 +1,6 @@
 # Sign-up-Form
 
-Link to the [Live Site](Link)
+Link to the [Live Site](https://jackywooks.github.io/Sign-up-Form/)
 
 Background Image Credit to
     Photo by <a
