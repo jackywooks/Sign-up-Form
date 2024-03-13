@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./script/script.js" defer></script>
+</head>
+
+<body>
+    <aside>
+        <div class="asideTop">
+            <div class="banner">
+                <img src="./images/icon/manchester-united.png" alt="logo" id="logo">
+                <h1>Man United</h1>
+            </div>
+        </div>
+
+        <footer>Photo by <a
+                href="https://unsplash.com/@dparker07?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dan
+                Parker</a> on <a
+                href="https://unsplash.com/photos/man-in-black-jacket-standing-beside-man-in-black-jacket-u9m_vp7ZhUY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </footer>
+    </aside>
+    <main>
+        <div class="top">
+            <p>This is not a real online service! </p>
+            <p>Glory Glory Man United!</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <br>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="middle">
+            <h2>Let's do this!</h2>
+            <form action="" method="post" id="form">
+                <div class="fEleContainer">
+                    <label for="firstName">First Name<sup>*</sup></label>
+                    <input type="text" name="firstName" id="firstName" required>
+                </div>
+                <div class="fEleContainer">
+                    <label for="lastName">Last Name<sup>*</sup></label>
+                    <input type="text" name="lastName" id="lastName" required>
+                </div>
+                <div class="fEleContainer">
+                    <label for="email">Email<sup>*</sup></label>
+                    <input type="email" name="email" id="email" autocomplete="email" required>
+                </div>
+                <div class="fEleContainer">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber"
+                        pattern="[(]?(\d{3})[)]?[ -]?(\d{3})[ -]?(\d{4})">
+                </div>
+                <div class="fEleContainer">
+                    <label for="password">Password<sup>*</sup></label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="fEleContainer">
+                    <label for="confirmPassword">Confirm Password<sup>*</sup></label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" required>
+                </div>
+            </form>
+        </div>
+        <div class="bottom">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#form">Log in</a></p>
+        </div>
+    </main>
+
+</body>
+
+</html>
